@@ -22,7 +22,7 @@ The general work flow for using one of the objects is this:
 4. Reference the returned data, whether as single values or in bulk, using *get____* methods.
 5. Monitor the performance of the library using the built-in logging system.
 
-Note that if you want to act on more than one Amazon store, you will need a separate object for each store.
+*Note:* If you want to act on more than one Amazon store, you will need a separate object for each store.
 
 Also note that the objects perform best when they are not treated as reusable. Otherwise, you may end up grabbing old response data if a new request fails.
 
